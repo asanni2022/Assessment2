@@ -415,5 +415,8 @@ server {
 ```
 ansible-playbook -i inventory.ini nginx.yml 
 ```
-
+### Manual Test to Confirm Node works
+```
+sudo cp todolist.service /etc/systemd/system/todolist.service
+```
 DevOps Class 2
